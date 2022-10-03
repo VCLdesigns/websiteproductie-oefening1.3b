@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  margin: 0 auto;
+  width: 1200px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header,
+main {
+  text-align: center;
+
+}
+
+header h1, header p, main h3{
+  padding: 25px;
+}
+
+header p{
+  font-size: 25px;
+}
+
+.gallery, .leftsection, .rightsection {
+  display: flex;
+}
+
+.leftsection,
+.rightsection {
+  flex-wrap: wrap;
+}
+
+.leftsection {
+  width: 400px;
+}
+
+.rightsection {
+  width: 800px;
+}
+
+img{
+  padding: 15px;
+}
+
+.loader{
+  border: 2px solid black;
+  width: 125px;
+  margin: 25px auto 200px auto;
+  padding: 10px;
+ 
+}
