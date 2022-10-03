@@ -13,42 +13,49 @@
 header,
 main {
   text-align: center;
-
 }
 
-header h1, header p, main h3{
+header h1,
+header p,
+main h3 {
   padding: 25px;
 }
 
-header p{
+header p {
   font-size: 25px;
 }
-
-.gallery, .leftsection, .rightsection {
-  display: flex;
+.gallery {
+  width: 100%;
 }
-
+.gallery,
 .leftsection,
-.rightsection {
+.rightsection,
+.undersection {
+  display: flex;
   flex-wrap: wrap;
-}
 
-.leftsection {
+}
+.leftsection{
   width: 400px;
 }
-
-.rightsection {
+.rightsection{
   width: 800px;
+  gap: 30px;
+}
+.undersection{
+  width: 100%;
 }
 
-img{
-  padding: 15px;
+.leftsection img,
+.rightsection img,
+.undersection img {
+  /* img zijn inline ... flexbox werkt enkel op block dus!*/
+  display: block;
 }
 
-.loader{
+.loader {
   border: 2px solid black;
   width: 125px;
   margin: 25px auto 200px auto;
   padding: 10px;
- 
 }
