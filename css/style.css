@@ -24,33 +24,29 @@ main h3 {
 header p {
   font-size: 25px;
 }
-.gallery {
-  width: 100%;
-}
-.gallery,
-.leftsection,
-.rightsection,
-.undersection {
+
+section {
   display: flex;
   flex-wrap: wrap;
-
 }
-.leftsection{
+.leftsection {
   width: 400px;
+  height: 630px;
 }
-.rightsection{
+.rightsection {
   width: 800px;
-  gap: 30px;
+  height: 630px;
 }
-.undersection{
-  width: 100%;
+.undersection {
+  width: 1200px;
+  height: 300px;
 }
 
-.leftsection img,
-.rightsection img,
-.undersection img {
+img {
   /* img zijn inline ... flexbox werkt enkel op block dus!*/
   display: block;
+  padding: 15px;
+ 
 }
 
 .loader {
