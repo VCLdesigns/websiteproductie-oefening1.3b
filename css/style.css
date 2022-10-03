@@ -37,10 +37,8 @@ section {
   width: 800px;
   height: 630px;
 }
-.undersection {
-  width: 1200px;
-  height: 300px;
-}
+
+
 
 img {
   /* img zijn inline ... flexbox werkt enkel op block dus!*/
