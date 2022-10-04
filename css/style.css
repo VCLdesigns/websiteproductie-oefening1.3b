@@ -29,23 +29,20 @@ section {
   display: flex;
   flex-wrap: wrap;
 }
-.leftsection {
-  width: 400px;
-  height: 630px;
-}
-.rightsection {
-  width: 800px;
-  height: 630px;
-}
-
-
-
 img {
   /* img zijn inline ... flexbox werkt enkel op block dus!*/
   display: block;
   padding: 15px;
  
 }
+.gallery section{
+  width: 800px;
+  margin-bottom: -30px;
+}
+
+
+
+
 
 .loader {
   border: 2px solid black;
